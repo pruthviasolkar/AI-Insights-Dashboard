@@ -1,0 +1,12 @@
+.linechart-container{
+   width: 67%;
+ 
+    background-color: var(--secondary-black);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.267);
+}
+.linemain{
+    background-color: var(--secondary-black);
+     color:#5d40be52;
+}

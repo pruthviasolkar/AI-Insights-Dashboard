@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+ 
+/* --primary-black:#f0f0f0;
+--secondary-black:#ffffff;
+--primary-green:#61d991; */
+
+--primary-black:#2d2e32;
+--secondary-black:#25262a;
+--primary-green:#61d991;
+ 
+ 
+font-synthesis: none;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  
+  background-color:var(--primary-black);
+}
+.chartsrow1{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+}
+.chartsrow2{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+.head{
+  background: var(--secondary-black); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Apply blur to background */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+  padding: 20px; /* Inner spacing */
+  color: white; /* Text color */
+  font-family: Arial, sans-serif; /* Optional: Customize text style */
+   
+}
+.head h1{
+  margin: 0;
+  
+  color:var(--primary-green);
+  background-color: #ffffff00;
+}
+.maindash{
+  margin: 50px;
+}
