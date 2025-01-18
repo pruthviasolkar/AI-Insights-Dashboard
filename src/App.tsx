@@ -9,7 +9,7 @@ import LineChart from './components/charts/LineChart';
 import PieChart from './components/charts/Piecharts';
  
 import HoBarChart from './components/charts/Hobar';
-import DoughnutChart from './components/charts/doughnut';
+import DoughnutChart from './components/charts/Doughnut.tsx';
  
 
 const App: React.FC = () => {

@@ -9,7 +9,7 @@ interface doughnutChartProps {
   data: Record<string, number>;
 }
 
-const  DoughnutChart: React.FC<doughnutChartProps> = ({ data }) => {
+const DoughnutChart: React.FC<doughnutChartProps> = ({ data }) => {
     const options: ChartOptions<'doughnut'> = {
         responsive: true,
          
@@ -48,4 +48,4 @@ const  DoughnutChart: React.FC<doughnutChartProps> = ({ data }) => {
 </div>
 };
 
-export default  DoughnutChart;
+export default DoughnutChart;
