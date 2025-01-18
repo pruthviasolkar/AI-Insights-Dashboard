@@ -54,3 +54,17 @@ text-rendering: optimizeLegibility;
 .maindash{
   margin: 50px;
 }
+.mainrows{
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  /* Styles for phones and smaller devices */
+  body {
+    font-size: 14px; /* Adjust text size */
+  }
+  .maindash{
+    margin: 20px;
+  }
+
+   
+}

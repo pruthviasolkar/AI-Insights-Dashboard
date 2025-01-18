@@ -39,7 +39,9 @@ const App: React.FC = () => {
      
       <div >
       {aiData && (
-        <><div className='chartsrow1'>
+        <>
+        <div className='mainrows'>
+        <div className='chartsrow1'>
           
           <LineChart dayWiseData={aiData.response_times.day_wise}
         weekWiseData={aiData.response_times.week_wise} />
@@ -53,6 +55,8 @@ const App: React.FC = () => {
           
           </div>
 
+        </div>
+        
           
           
         </>

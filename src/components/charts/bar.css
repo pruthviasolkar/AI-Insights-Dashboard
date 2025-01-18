@@ -11,3 +11,14 @@
     background-color: var(--secondary-black);
     align-self: center;
 }
+@media screen and (max-width: 768px) {
+    /* Styles for phones and smaller devices */
+    body {
+      font-size: 14px; /* Adjust text size */
+    }
+  
+    .chart-container{
+      width: 100%; /* Make the chart container responsive */
+      padding: 5px; /* Add padding for better spacing */
+    }
+}

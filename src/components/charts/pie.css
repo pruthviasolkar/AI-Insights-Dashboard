@@ -5,3 +5,14 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+@media screen and (max-width: 768px) {
+    /* Styles for phones and smaller devices */
+    body {
+      font-size: 14px; /* Adjust text size */
+    }
+  
+    .pie-container{
+      width: 100%; /* Make the chart container responsive */
+      padding: 5px; /* Add padding for better spacing */
+    }
+}
