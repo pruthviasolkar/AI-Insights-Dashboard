@@ -68,7 +68,7 @@ const LineChart: React.FC<LineChartProps> = ({ dayWiseData, weekWiseData }) => {
 
   return (
     <div className="linechart-container">
-      <Line className="linemain" options={options} data={chartData} height={100} />
+      <Line className="linemain" options={options} data={chartData}   />
     </div>
   );
 };
