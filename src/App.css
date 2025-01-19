@@ -72,6 +72,12 @@ text-rendering: optimizeLegibility;
   .maindash{
     margin: 20px;
   }
+  .chartsrow3{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+    flex-wrap: wrap;
+  }
 
    
 }
