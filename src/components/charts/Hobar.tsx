@@ -14,7 +14,7 @@ const HoBarChart: React.FC<BarChartProps> = ({ data }) => {
     labels: Object.keys(data),
     datasets: [
       {
-        label: 'Categories',
+        label: 'Usage Statistics By Platform',
         data: Object.values(data),
         backgroundColor: '#61d991',
         borderColor: '#ffffff',

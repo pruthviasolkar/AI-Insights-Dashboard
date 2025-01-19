@@ -19,6 +19,11 @@ const DoughnutChart: React.FC<doughnutChartProps> = ({ data }) => {
             labels: {
                 color: 'white', // Set the legend text color to white
               },
+              title: {
+                display: true,
+                 text:"Usage Statistics By Country"
+              },
+               
           },
         },
          

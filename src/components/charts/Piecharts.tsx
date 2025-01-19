@@ -20,6 +20,18 @@ const  PieChart: React.FC< pieChartProps> = ({ data }) => {
                 color: 'white', // Set the legend text color to white
               },
           },
+          title: {
+            display: true,
+             text:"Insight Summary",
+             font: {
+              size: 24, // Increase the title font size here
+              
+            },
+            padding: {
+              top: 10,
+              bottom: 20,
+            },
+          },
         },
          
       };
@@ -30,7 +42,7 @@ const  PieChart: React.FC< pieChartProps> = ({ data }) => {
         label: 'Categories',
         data: Object.values(data),
         
-        backgroundColor: ["#3D2785","#5E40BE","#4394E5","#92C5F9","#B9DAFC"],
+        backgroundColor: ["#2aa8f2","#fae442","#ff6355","#92C5F9","#B9DAFC"],
         borderColor:"#25262a",
         hoverOffset:0,
         spacing:0,

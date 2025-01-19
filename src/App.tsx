@@ -43,17 +43,18 @@ const App: React.FC = () => {
         <>
         <div className='mainrows'>
         <div className='chartsrow1'>
-          
+        <PieChart data={aiData.insight_summary}/>
           <LineChart dayWiseData={aiData.response_times.day_wise}
         weekWiseData={aiData.response_times.week_wise} />
-        <DoughnutChart data={aiData.usage_statistics.by_country}/>
+        
            
           </div>
           <div className='chartsrow2'>
-          <PieChart data={aiData.insight_summary}/>
+         
           <BarChart data={aiData.category_distribution} />
           
           <UserSatisfactionChart data={aiData.user_satisfaction.ratings}/>
+          <DoughnutChart data={aiData.usage_statistics.by_country}/>
           </div>
           <div className='chartsrow3'><HoBarChart data={aiData.usage_statistics.by_platform} /></div>
 
