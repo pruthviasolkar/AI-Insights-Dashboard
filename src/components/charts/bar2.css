@@ -1,0 +1,24 @@
+.bar2-container{
+    width: 36%;
+    background-color: var(--secondary-black);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.267);
+}
+.barmain{
+   background-color: var(--secondary-black);
+   align-self: center;
+}
+@media screen and (max-width: 768px) {
+   /* Styles for phones and smaller devices */
+   body {
+     font-size: 14px; /* Adjust text size */
+   }
+ 
+   .chart-container{
+     width: 100%; /* Make the chart container responsive */
+     padding: 5px; /* Add padding for better spacing */
+   }
+}

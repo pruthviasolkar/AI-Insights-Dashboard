@@ -10,6 +10,7 @@ import PieChart from './components/charts/Piecharts';
  
 import HoBarChart from './components/charts/Hobar';
 import DoughnutChart from './components/charts/Doughnut.tsx';
+import UserSatisfactionChart from './components/charts/bar2.tsx';
  
 
 const App: React.FC = () => {
@@ -51,9 +52,10 @@ const App: React.FC = () => {
           <div className='chartsrow2'>
           <PieChart data={aiData.insight_summary}/>
           <BarChart data={aiData.category_distribution} />
-          <HoBarChart data={aiData.usage_statistics.by_platform} />
           
+          <UserSatisfactionChart data={aiData.user_satisfaction.ratings}/>
           </div>
+          <div className='chartsrow3'><HoBarChart data={aiData.usage_statistics.by_platform} /></div>
 
         </div>
         

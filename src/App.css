@@ -33,6 +33,7 @@ text-rendering: optimizeLegibility;
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 
 }
 .head{
@@ -56,6 +57,12 @@ text-rendering: optimizeLegibility;
 }
 .mainrows{
   display: block;
+}
+.chartsrow3{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+  flex-wrap: wrap;
 }
 @media screen and (max-width: 768px) {
   /* Styles for phones and smaller devices */
